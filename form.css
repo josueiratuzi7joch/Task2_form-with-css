@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding-left: 32rem;
+
+}
+h2{
+	margin-left: -33rem;
+	background-color: rgb(255, 0, 0);
+	padding-left: 5rem;
+    color: white;
+    height: 2.5rem;
+    padding-top: 0.5rem;
+
+
+}
+#user{
+    display: block;
+    
+}
+h3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+fieldset{
+	width: 17rem;
+	height: 22rem;
+	border: 1px solid rgb(172, 172, 172);
+    padding-left: 1rem;
+    box-shadow: 1px 3px rgb(193, 193, 193);
+    border-radius: 7px;
+    margin-top: 7rem;
+    background-color: white;
+	
+}
+legend{
+    text-align: center;
+}
+.inputcont{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.eye{
+    display: flex;
+    position: absolute;
+    width: 1.4rem;
+    height: 1.3rem;
+    margin-left: 14rem;
+    margin-top: 0.2rem;
+
+}
+.key{
+    display: flex;
+    position: absolute;
+     width: 2.4rem;
+    height: 1.9rem;
+    margin-left: 1rem;
+   padding-right: 3rem;
+    margin-top: 0.1rem;
+
+}
+.messg{
+    display: flex;
+    position: absolute;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-left: 1rem;
+   padding-right: 3rem;
+    margin-top: 0.2rem;
+
+}
+input{
+    width: 13rem;
+    height: 2rem;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 179, 179);
+    color: gray;   
+     padding-left: 3rem;
+    outline: none;
+}
+.check{
+    margin-left: -7rem;
+    height: 1rem;
+    width: 1rem;
+}
+button{
+   width: 16.5rem;
+    height: 2rem;
+    border-radius: 50px;
+    background-color: rgb(52, 153, 211);
+    margin-left: -1rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+button:hover{
+   width: 16.5rem;
+    height: 2rem;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: -1rem;
+    border: 1px gray solid;
+    cursor: pointer;
+    color: blue;
+
+}
+footer{
+   background-color: rgb(49, 149, 225);
+    
+    margin-left: -32rem;
+    margin-top: 4rem;
+   text-align: center;
+ color: white;
+    height: 2rem;
+    padding-top: 0.5rem;
+}
+body{
+    background-color: whitesmoke;
+}
+
